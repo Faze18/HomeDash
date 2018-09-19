@@ -14,7 +14,7 @@ import News from "./pages/News";
 import WorkSpace from "./pages/Workspace/index";
 import Facebook from "./pages/FacebookLogin";
 import { Provider } from './context';
-
+import Blog from "./pages/Blog";
 
 import "./App.css";
 var logout = function () {
@@ -34,6 +34,7 @@ const App = () =>
 
           <Route exact path="/home" component={Home} />
           <Route exact path="/logout" component={LogOut} />
+          <Route exact path="/blog" component={Blog} />
 
           <Route exact path="/calendar" component={Calendar} />
           <Route exact path="/news" component={News} />
