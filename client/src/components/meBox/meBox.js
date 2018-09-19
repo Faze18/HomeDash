@@ -8,9 +8,7 @@ const MeBox = ( props ) => (
         <h4>{props.name}</h4>
         <br />
         <hr className="w3-clear" />
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore
-          magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-          consequat.
+        <p>Text about me
               </p>
         <div className="w3-row-padding" 
         style={{margin:0 -16}}

@@ -19,7 +19,6 @@ const Nav =(props)=> (
 
     <a href="/calendar" className="w3-bar-item w3-button w3-hover-none w3-text-grey w3-hover-text-white w3-right">Calendar</a>
 
-    <a href="/news" className="w3-bar-item w3-button w3-hover-none w3-text-grey w3-hover-text-white w3-right">News</a>
 
     <a href="/home" className="w3-bar-item w3-button w3-hover-none w3-text-grey w3-hover-text-white w3-right">Home</a>
 
